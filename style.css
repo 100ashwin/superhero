@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header and navbar of the website */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  padding: 16px 16px;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar-logo img {
+  height: 50px;
+  width: auto;
+  display: block;
+}
+
+.navbar-links ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-ready {
+  margin-left: auto;
+  margin-right: 26px;
+  text-decoration: none;
+  color: white;
+  background-color: #0052cc;
+  padding: 10px 18px;
+  border-radius: 5px;
+}
+/* ---------------------------------------------------- */
+
+/* Hero section of the website */
+.hero {
+  width: 100%;
+  min-height: 500px;
+  background-color: #b70606;
+  display: flex;
+  align-items: center;
+}
+
+.hero-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Allow flex items to shrink properly */
+.hero-left,
+.hero-right {
+  flex: 1;
+  min-width: 0;
+}
+
+.hero-left {
+  color: white;
+}
+
+.hero-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-right img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ------------------------------------------------------ */
+
+/* card section */
+
+.topic-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem; /* spacing between cards */
+  padding: 2rem;
+  background-color: rgb(223, 223, 223);
+}
+
+.card {
+  background-color: #fffdfd;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Card content spacing */
+.card h2 {
+  margin-bottom: 0.75rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.card p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.card ul {
+  padding-left: 1.2rem;
+}
+
+.card li {
+  margin-bottom: 0.5rem;
+  list-style: none;
+}
+
+.card li a {
+  color: #021a3f;
+  text-decoration: none;
+  border-bottom: 2px solid rgb(221, 221, 221);
+}
+
+/* footer section */
+
+.footer-note {
+  height: 100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-note p {
+  color: white;
+}
